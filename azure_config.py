@@ -3,7 +3,7 @@ Azure OpenAI設定とヘルパー関数
 """
 
 import os
-from typing import Optional
+
 import logging
 from dotenv import load_dotenv
 
