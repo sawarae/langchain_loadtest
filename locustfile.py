@@ -1,6 +1,6 @@
 from locust import HttpUser, task, between, events
 import random
-import json
+
 import time
 
 
@@ -61,8 +61,7 @@ class LangChainAPITestUser(HttpUser):
             )
 
 
-# カスタムイベントハンドラー
-from locust import events
+
 
 
 @events.request.add_listener
