@@ -1,4 +1,2 @@
-.env
-venv/
-wandb/
-__pycache__/
+
+reports/
